@@ -5,7 +5,7 @@
 using namespace std;
 
 const int MAX_CONSTS = 1e5;
-int nNumConsts = 0;
+int nNumConsts = 0; 
 
 enum t_token {
   NOT, NOT_EQUAL, AND, LEFT_PARENTHESIS, RIGHT_PARENTESIS, TIMES,
@@ -86,7 +86,7 @@ struct t_const {
     char* sVal;
 <<<<<<< HEAD
   }v;
-}; 
+};
 
 =======
   }val;
